@@ -1,0 +1,150 @@
+.flex {
+    display: flex;
+}
+
+.wid {
+    width: 304px;
+    height: 250px;
+}
+
+.left {
+    width: 648px;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    gap: 43px;
+}
+
+/* @media (max-width: 768px) {
+
+    .navcont,
+    .navbar,
+    .ads,
+    .secx,
+    .duo {
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    /* z-index: 100; 
+}*/
+
+.loggo {
+    width: 1010px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loggo img {
+    width: 250px;
+    height: 150px;
+    border-radius: 300px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 9px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+.fooli {
+    opacity: 0.5;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 0;
+    list-style-type: none;
+}
+
+.btn img {
+    filter: invert();
+    width: 22px;
+}
+
+.foli {
+    margin: 19px 0px;
+    color: rgb(0 0 0 / 75%);
+}
+
+.riii {
+    opacity: 0.5;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    color: rgb(0 0 0 / 75%);
+}
+
+.foo {
+    display: flex;
+    justify-content: center;
+}
+
+.fot {
+    opacity: 0.5;
+    font-weight: 400;
+    font-size: 10px;
+    color: rgb(0 0 0 / 75%);
+    margin: 80px 0px;
+}
+
+.lo {
+    justify-content: center;
+}
+
+.ads,
+.ads2 {
+    opacity: .04;
+    text-shadow: 1px 2px 3px grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 232px;
+    font-weight: 1000;
+}
+
+a {
+    color:
+        rgb(0, 0, 238);
+}
+
+/* .li6{
+    font-size: 18px;
+} */
+.tran {
+
+    position: relative;
+    animation: slide 4s infinite alternate-reverse;
+    /* transition: all 1s ease-out; */
+}
+
+.tran1 {
+    position: relative;
+    animation: slide 4s infinite alternate;
+}
+
+.tran2 {
+    position: relative;
+    animation: slide 4s infinite forwards;
+}
+
+@keyframes slides {
+    0% {
+        right: -40px;
+    }
+
+    100% {
+        right: 40px;
+    }
+}
+
+@keyframes slide {
+    0% {
+        left: -30px;
+    }
+
+    100% {
+        left: 30px;
+    }
+}
